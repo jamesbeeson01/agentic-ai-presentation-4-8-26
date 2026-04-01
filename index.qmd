@@ -125,9 +125,9 @@ format:
 
 ![](resources/agent_engineering_field.png)
 
-## {.web-embed-slide}
+<!-- ## {.web-embed-slide}
 
-<iframe src="https://blog.langchain.com/agent-engineering-a-new-discipline/" title="Agent Engineering Article" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://blog.langchain.com/agent-engineering-a-new-discipline/" title="Agent Engineering Article" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
 ## {.objectives-slide}
 
