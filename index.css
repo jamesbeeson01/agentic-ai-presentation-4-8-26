@@ -138,6 +138,17 @@
   letter-spacing: 0.03em !important;
 }
 
+.avatar-photo {
+  width: 68px !important;
+  height: 68px !important;
+  min-width: 68px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  flex-shrink: 0 !important;
+  display: block !important;
+}
+
 /* ── Card text block ─────────────────────────── */
 .card-text {
   display: flex !important;

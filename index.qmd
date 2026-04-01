@@ -13,19 +13,19 @@ format:
 ## {.team-slide}
 
 <div class="slide-header">
-  <div class="header-title">Agentic AI Course</div>
-  <div class="header-subtitle"><em>Special Topics</em></div>
+  <div class="header-title">Agentic AI Courses</div>
+  <div class="header-subtitle"><em>Data Science Consulting</em></div>
 </div>
 
 <div class="team-grid">
 <div class="team-card">
 <div class="card-accent"></div>
 <div class="card-content">
-<div class="avatar-placeholder">JB</div>
+<img class="avatar-photo" src="resources/James-Beeson-headshot.jpg" alt="James Beeson headshot" />
 <div class="card-text">
 <strong>James Beeson</strong>
 <span class="role">Team Leader / Curriculum Design</span>
-<span class="fact">Data Science</span>
+<span class="fact">Data Science & Educator</span>
 </div>
 </div>
 </div>
@@ -33,11 +33,12 @@ format:
 <div class="team-card">
 <div class="card-accent"></div>
 <div class="card-content">
-<div class="avatar-placeholder">ES</div>
+<img class="avatar-photo" src="resources/Ethan-Saline-headshot.jpg" alt="Ethan Saline headshot" />
 <div class="card-text">
 <strong>Ethan Saline</strong>
 <span class="role">Website / Course Developer</span>
-<span class="fact">Brief intro or fun fact</span>
+<span class="fact">Data Scientist / ML Engineer
+</span>
 </div>
 </div>
 </div>
@@ -45,7 +46,7 @@ format:
 <div class="team-card">
 <div class="card-accent"></div>
 <div class="card-content">
-<div class="avatar-placeholder">WJ</div>
+<img class="avatar-photo" src="resources/Wil-Jones-headshot.jpg" alt="Wil Jones headshot" />
 <div class="card-text">
 <strong>Wil Jones</strong>
 <span class="role">Website / Course Developer</span>
@@ -57,7 +58,7 @@ format:
 <div class="team-card">
 <div class="card-accent"></div>
 <div class="card-content">
-<div class="avatar-placeholder">IB</div>
+<img class="avatar-photo" src="resources/Ian-Blad-headshot.jpg" alt="Ian Blad headshot" />
 <div class="card-text">
 <strong>Ian Blad</strong>
 <span class="role">Course Developer</span>
@@ -69,11 +70,11 @@ format:
 <div class="team-card">
 <div class="card-accent"></div>
 <div class="card-content">
-<div class="avatar-placeholder">KJ</div>
+<img class="avatar-photo" src="resources/Kimberly-Juarez-headshot.jpg" alt="Kimberly Juarez headshot" />
 <div class="card-text">
 <strong>Kimberly Juarez</strong>
 <span class="role">Course Developer</span>
-<span class="fact">Brief intro or fun fact</span>
+<span class="fact">Data Scientist</span>
 </div>
 </div>
 </div>
@@ -81,11 +82,11 @@ format:
 <div class="team-card">
 <div class="card-accent"></div>
 <div class="card-content">
-<div class="avatar-placeholder">CR</div>
+<img class="avatar-photo" src="resources/Camila-Ramirez-headshot.jpg" alt="Camila Ramirez headshot" />
 <div class="card-text">
 <strong>Camila Ramirez</strong>
 <span class="role">Course Developer</span>
-<span class="fact">Brief intro or fun fact</span>
+<span class="fact">Data Scientist</span>
 </div>
 </div>
 </div>
