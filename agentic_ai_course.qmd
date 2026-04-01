@@ -1,0 +1,218 @@
+---
+format:
+  revealjs:
+    theme: simple
+    slide-number: false
+    transition: fade
+    background-transition: fade
+    css: agentic_ai_styles.css
+    disable-layout: true
+    margin: 0
+---
+
+## {.team-slide}
+
+<div class="slide-header">
+  <div class="header-title">Agentic AI Course</div>
+  <div class="header-subtitle"><em>Special Topics</em></div>
+</div>
+
+<div class="team-grid">
+<div class="team-card">
+<div class="card-accent"></div>
+<div class="card-content">
+<div class="avatar-placeholder">JB</div>
+<div class="card-text">
+<strong>James Beeson</strong>
+<span class="role">Team Leader / Curriculum Design</span>
+<span class="fact">Data Science</span>
+</div>
+</div>
+</div>
+
+<div class="team-card">
+<div class="card-accent"></div>
+<div class="card-content">
+<div class="avatar-placeholder">ES</div>
+<div class="card-text">
+<strong>Ethan Saline</strong>
+<span class="role">Website / Course Developer</span>
+<span class="fact">Brief intro or fun fact</span>
+</div>
+</div>
+</div>
+
+<div class="team-card">
+<div class="card-accent"></div>
+<div class="card-content">
+<div class="avatar-placeholder">WJ</div>
+<div class="card-text">
+<strong>Wil Jones</strong>
+<span class="role">Website / Course Developer</span>
+<span class="fact">Loves playing the tenor saxophone</span>
+</div>
+</div>
+</div>
+
+<div class="team-card">
+<div class="card-accent"></div>
+<div class="card-content">
+<div class="avatar-placeholder">IB</div>
+<div class="card-text">
+<strong>Ian Blad</strong>
+<span class="role">Course Developer</span>
+<span class="fact">I/O Psych Major</span>
+</div>
+</div>
+</div>
+
+<div class="team-card">
+<div class="card-accent"></div>
+<div class="card-content">
+<div class="avatar-placeholder">KJ</div>
+<div class="card-text">
+<strong>Kimberly Juarez</strong>
+<span class="role">Course Developer</span>
+<span class="fact">Brief intro or fun fact</span>
+</div>
+</div>
+</div>
+
+<div class="team-card">
+<div class="card-accent"></div>
+<div class="card-content">
+<div class="avatar-placeholder">CR</div>
+<div class="card-text">
+<strong>Camila Ramirez</strong>
+<span class="role">Course Developer</span>
+<span class="fact">Brief intro or fun fact</span>
+</div>
+</div>
+</div>
+
+</div>
+
+## {.deliverables-slide}
+
+<div class="deliverables-frame">
+<div class="deliverables-title">Deliverables</div>
+
+<div class="deliverable-row">
+<div class="deliverable-num">01</div>
+<div class="deliverable-text">DS Society Bootcamp Curriculum with Website</div>
+</div>
+
+<div class="deliverable-row">
+<div class="deliverable-num">02</div>
+<div class="deliverable-text">Special Topics Curriculum with Website</div>
+</div>
+
+<div class="deliverable-row">
+<div class="deliverable-num">03</div>
+<div class="deliverable-text">Additional Teaching Resources - instructor notes, grading schema, etc.</div>
+</div>
+</div>
+
+## {.web-embed-slide}
+
+<iframe src="https://wiljones-red.github.io/Agentic_Bootcamp/" title="Agentic Bootcamp" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## {.web-embed-slide}
+
+<iframe src="https://ethanbyui.github.io/agentic_ai_course/" title="Agentic AI Course Site" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## {.image-fill-slide}
+
+![](resources/agent_engineering_field.png)
+
+## {.web-embed-slide}
+
+<iframe src="https://blog.langchain.com/agent-engineering-a-new-discipline/" title="Agent Engineering Article" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## {.objectives-slide}
+
+::: {.objectives-block}
+### Course Objectives
+
+::: {.incremental}
+- Be able to plan, program, measure, test, and iteratively refine Agentic AI solutions.
+- Know which problems are best solved with Agentic AI and when it is appropriate to do so.
+- Define Agentic AI and related concepts.
+- Grow an ability to self-learn in an ever-changing AI landscape.
+:::
+:::
+
+## {.curriculum-slide}
+
+::: {.curriculum-header}
+::: {.curriculum-title}
+Course Structure
+:::
+::: {.curriculum-subtitle}
+Units and Capstone Overview
+:::
+:::
+
+::: {.curriculum-grid}
+::: {.curriculum-box .fragment data-fragment-index="1"}
+::: {.unit-label}
+Unit 1
+:::
+::: {.unit-title}
+Foundations - Tooling and Frameworks
+:::
+::: {.unit-body}
+- Connect LLMs to tools and MCP
+- ReAct agent framework 
+- Python (LangChain)
+:::
+:::
+
+::: {.curriculum-box .fragment data-fragment-index="2"}
+::: {.unit-label}
+Unit 2
+:::
+::: {.unit-title}
+Diagnostics
+:::
+::: {.unit-body}
+Use diagnostic systems (LangSmith) to: 
+
+- Analyze traces
+- Create numeric measures 
+- Create test cases (Golden datasets)
+- Perform A/B testing against test cases
+:::
+:::
+
+::: {.curriculum-box .fragment data-fragment-index="3"}
+::: {.unit-label}
+Unit 3
+:::
+::: {.unit-title}
+Context Engineering
+:::
+::: {.unit-body}
+Refine agents using:
+
+- Deliberate architecture planning
+- Context engineering
+  - Context offloading (file syste, RAG)
+  - Subagent orchestration
+  - Sandboxing
+:::
+:::
+
+::: {.curriculum-box .capstone-box .fragment data-fragment-index="4"}
+::: {.unit-label}
+Capstone
+:::
+::: {.unit-title}
+Battle of the Bots and Contribution Assignment
+:::
+::: {.unit-body}
+- Student-made agents go head to head in a competition
+- Students update or adjust the curriculum to current AI standards
+:::
+:::
+:::

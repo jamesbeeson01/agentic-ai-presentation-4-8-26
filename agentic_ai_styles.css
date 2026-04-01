@@ -1,0 +1,478 @@
+/* =============================================
+   Agentic AI Course — RevealJS Slide Styles
+   ============================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,400&family=Source+Sans+3:wght@400;600;700&display=swap');
+
+:root {
+  --navy:     #1a2a5e;
+  --gold:     #b8972a;
+  --light-bg: #edf1f7;
+  --card-bg:  #ffffff;
+  --text-dark: #1a2a5e;
+  --text-role: #b8972a;
+  --text-body: #444;
+  --radius: 6px;
+}
+
+.reveal,
+.reveal .slides {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+/* ── Force the slide to use full viewport & flex column ── */
+.reveal .slides section.team-slide,
+.reveal .slides section.team-slide > .slide-content {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  background: var(--light-bg) !important;
+  overflow: hidden !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+/* Remove RevealJS default centering */
+.reveal .slides {
+  text-align: left !important;
+}
+
+/* ── Header band ─────────────────────────────── */
+.slide-header {
+  background: var(--navy) !important;
+  height: 30% !important;
+  min-height: 30% !important;
+  padding: 32px 56px 28px !important;
+  border-bottom: 4px solid var(--gold) !important;
+  flex: 0 0 30% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
+.header-title {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: clamp(3rem, 5vw, 4.6rem) !important;
+  color: #ffffff !important;
+  margin: 0 0 12px !important;
+  line-height: 1.1 !important;
+}
+
+.header-subtitle {
+  font-family: 'Merriweather', serif !important;
+  font-weight: 400 !important;
+  font-style: italic !important;
+  font-size: clamp(1.45rem, 2.1vw, 2rem) !important;
+  color: var(--gold) !important;
+  margin: 0 !important;
+}
+
+.header-subtitle em {
+  font-style: italic !important;
+  color: var(--gold) !important;
+}
+
+/* ── 2-column team grid — fills remaining space ── */
+.team-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  grid-template-rows: repeat(3, 1fr) !important;
+  gap: 16px !important;
+  padding: 24px 48px !important;
+  flex: 0 0 60% !important;
+  min-height: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* ── Individual card ─────────────────────────── */
+.team-card {
+  background: var(--card-bg) !important;
+  border-radius: var(--radius) !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: stretch !important;
+  overflow: hidden !important;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.09) !important;
+  min-height: 0 !important;
+}
+
+/* Gold left accent bar */
+.card-accent {
+  width: 7px !important;
+  background: var(--gold) !important;
+  flex-shrink: 0 !important;
+}
+
+/* Card body */
+.card-content {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 20px !important;
+  padding: 18px 22px !important;
+  flex: 1 !important;
+  min-width: 0 !important;
+}
+
+/* ── Avatar circle ───────────────────────────── */
+.avatar-placeholder {
+  width: 68px !important;
+  height: 68px !important;
+  min-width: 68px !important;
+  border-radius: 50% !important;
+  background: linear-gradient(135deg, #c8d6e8 0%, #9ab0c8 100%) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 1.05rem !important;
+  color: var(--navy) !important;
+  flex-shrink: 0 !important;
+  letter-spacing: 0.03em !important;
+}
+
+/* ── Card text block ─────────────────────────── */
+.card-text {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 3px !important;
+  min-width: 0 !important;
+}
+
+.card-text strong {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: clamp(1.15rem, 1.4vw, 1.45rem) !important;
+  color: var(--text-dark) !important;
+  display: block !important;
+  line-height: 1.2 !important;
+}
+
+.card-text .role {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-style: italic !important;
+  font-size: clamp(0.98rem, 1.05vw, 1.15rem) !important;
+  color: var(--text-role) !important;
+  display: block !important;
+  line-height: 1.2 !important;
+}
+
+.card-text .fact {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-size: clamp(0.95rem, 1.02vw, 1.1rem) !important;
+  color: var(--text-body) !important;
+  display: block !important;
+  line-height: 1.3 !important;
+}
+
+/* ── RevealJS reset overrides ────────────────── */
+.reveal h1, .reveal h2, .reveal h3,
+.reveal h4, .reveal h5, .reveal h6 {
+  text-transform: none !important;
+  margin: 0 !important;
+}
+
+.reveal p {
+  margin: 0 !important;
+}
+
+.reveal section img {
+  margin: 0 !important;
+}
+
+/* Hide the default slide heading (the ## we used as a hook) */
+.reveal .slides section.team-slide > h2 {
+  display: none !important;
+}
+
+/* Full-height centered image slide */
+.reveal .slides section.image-fill-slide {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: #2b2b2b !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+}
+
+.reveal .slides section.image-fill-slide > h2 {
+  display: none !important;
+}
+
+.reveal .slides section.image-fill-slide p {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.reveal .slides section.image-fill-slide img,
+.reveal .slides section.image-fill-slide img.r-stretch {
+  display: block !important;
+  width: auto !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  max-width: 100% !important;
+  object-fit: contain !important;
+  margin: 0 auto !important;
+}
+
+/* Full-slide embedded website */
+.reveal .slides section.web-embed-slide {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: block !important;
+  overflow: hidden !important;
+}
+
+.reveal .slides section.web-embed-slide > h2 {
+  display: none !important;
+}
+
+.reveal .slides section.web-embed-slide iframe {
+  width: 100% !important;
+  height: 100% !important;
+  border: 0 !important;
+  display: block !important;
+}
+
+/* Curriculum boxes slide */
+.reveal .slides section.curriculum-slide {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 30px 44px !important;
+  margin: 0 !important;
+  background: #f4f7fc !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 20px !important;
+  text-align: left !important;
+}
+
+.reveal .slides section.curriculum-slide > h2 {
+  display: none !important;
+}
+
+.curriculum-header {
+  flex: 0 0 auto !important;
+}
+
+.curriculum-title {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-size: clamp(2rem, 3.1vw, 2.8rem) !important;
+  font-weight: 700 !important;
+  color: var(--navy) !important;
+  line-height: 1.1 !important;
+}
+
+.curriculum-subtitle {
+  margin-top: 6px !important;
+  font-family: 'Merriweather', serif !important;
+  font-size: clamp(1rem, 1.5vw, 1.25rem) !important;
+  color: #43506e !important;
+}
+
+.curriculum-grid {
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: stretch !important;
+  gap: 16px !important;
+}
+
+.curriculum-box {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  background: #ffffff !important;
+  border: 2px solid #d8dfeb !important;
+  border-radius: 12px !important;
+  padding: 16px 18px !important;
+  box-shadow: 0 2px 10px rgba(16, 34, 81, 0.07) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  min-height: 0 !important;
+}
+
+.curriculum-box .unit-label {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 0.9rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+  color: var(--gold) !important;
+}
+
+.curriculum-box .unit-title {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: clamp(1.08rem, 1.35vw, 1.35rem) !important;
+  line-height: 1.2 !important;
+  color: var(--navy) !important;
+}
+
+.curriculum-box .unit-body {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-size: clamp(0.9rem, 1vw, 1.05rem) !important;
+  line-height: 1.35 !important;
+  color: #233252 !important;
+}
+
+.curriculum-box.capstone-box {
+  border-color: #c9a94e !important;
+  background: linear-gradient(180deg, #fffef8 0%, #ffffff 100%) !important;
+}
+
+/* Curriculum focus sequence: all visible on entry, then spotlight one box per step */
+.reveal .slides section.curriculum-slide .curriculum-box.fragment {
+  opacity: 1 !important;
+  visibility: inherit !important;
+  transition: opacity 220ms ease !important;
+}
+
+.reveal .slides section.curriculum-slide:has(.curriculum-box.fragment.current-fragment) .curriculum-box.fragment:not(.current-fragment) {
+  opacity: 0.22 !important;
+}
+
+.reveal .slides section.curriculum-slide .curriculum-box.fragment.current-fragment {
+  opacity: 1 !important;
+}
+
+/* Deliverables slide */
+.reveal .slides section.deliverables-slide {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #172765 !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+  text-align: left !important;
+}
+
+.reveal .slides section.deliverables-slide > h2 {
+  display: none !important;
+}
+
+.deliverables-frame {
+  width: 100% !important;
+  height: 100% !important;
+  box-sizing: border-box !important;
+  padding: 52px 48px 32px 48px !important;
+  border-left: 22px solid #c9a94e !important;
+  border-bottom: 22px solid #c9a94e !important;
+  background: linear-gradient(90deg, #263173 0%, #263173 82%, #1f2b70 82%, #1f2b70 100%) !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.deliverables-title {
+  flex: 0 0 30% !important;
+  display: flex !important;
+  align-items: center !important;
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-size: clamp(2.35rem, 4vw, 3.35rem) !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  margin-bottom: 0 !important;
+  line-height: 1.1 !important;
+}
+
+.deliverable-row {
+  display: flex !important;
+  align-items: stretch !important;
+  background: #2b3970 !important;
+  box-shadow: 0 6px 14px rgba(5, 14, 48, 0.25) !important;
+  margin-bottom: 22px !important;
+  min-height: 84px !important;
+}
+
+.deliverable-num {
+  flex: 0 0 76px !important;
+  background: #c9a94e !important;
+  color: #16215e !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 2rem !important;
+  letter-spacing: 0.01em !important;
+}
+
+.deliverable-text {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 0 24px 0 26px !important;
+  color: #ffffff !important;
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-size: clamp(1.26rem, 1.95vw, 2.1rem) !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+}
+
+/* Course objectives slide */
+.reveal .slides section.objectives-slide {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 36px 48px !important;
+  box-sizing: border-box !important;
+  background: linear-gradient(135deg, #1c2a66 0%, #17245b 70%, #141f4f 100%) !important;
+  color: #ffffff !important;
+  text-align: left !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.reveal .slides section.objectives-slide > h2 {
+  display: none !important;
+}
+
+.reveal .slides section.objectives-slide .objectives-block {
+  width: min(1180px, 92%) !important;
+}
+
+.reveal .slides section.objectives-slide h3 {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-size: clamp(2.2rem, 3.3vw, 3rem) !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  margin: 0 0 18px 0 !important;
+  line-height: 1.1 !important;
+}
+
+.reveal .slides section.objectives-slide ul {
+  margin: 0 !important;
+  padding-left: 1.25em !important;
+  max-width: 94% !important;
+}
+
+.reveal .slides section.objectives-slide li {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-size: clamp(1.15rem, 1.65vw, 1.55rem) !important;
+  line-height: 1.32 !important;
+  color: #f3f6ff !important;
+  margin: 0 0 14px 0 !important;
+}
