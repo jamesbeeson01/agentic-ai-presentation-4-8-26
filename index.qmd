@@ -5,7 +5,7 @@ format:
     slide-number: false
     transition: fade
     background-transition: fade
-    css: agentic_ai_styles.css
+    css: index.css
     disable-layout: true
     margin: 0
 ---
