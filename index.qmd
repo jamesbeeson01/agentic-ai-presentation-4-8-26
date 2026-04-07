@@ -216,10 +216,9 @@ Context Engineering
 Refine agents using:
 
 - Deliberate architecture planning
-- Context engineering
-  - Context offloading (file system, RAG)
-  - Subagent orchestration
-  - Sandboxing
+- Context offloading (file system, RAG)
+- Subagent orchestration
+- Sandboxing
 :::
 :::
 
