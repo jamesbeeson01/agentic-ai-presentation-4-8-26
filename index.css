@@ -333,16 +333,46 @@
 .curriculum-box .unit-title {
   font-family: 'Source Sans 3', sans-serif !important;
   font-weight: 700 !important;
-  font-size: clamp(1.08rem, 1.35vw, 1.35rem) !important;
+  font-size: clamp(2rem, 1.58vw, 1.6rem) !important;
   line-height: 1.2 !important;
   color: var(--navy) !important;
 }
 
 .curriculum-box .unit-body {
   font-family: 'Source Sans 3', sans-serif !important;
-  font-size: clamp(0.9rem, 1vw, 1.05rem) !important;
+  font-size: clamp(1.02rem, 1.2vw, 1.22rem) !important;
   line-height: 1.35 !important;
   color: #233252 !important;
+}
+
+.curriculum-box .unit-icons {
+  margin-top: 20px !important;
+  padding-top: 2px !important;
+  margin-bottom: 20px !important;
+  display: flex !important;
+  gap: 10px !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.curriculum-box .unit-icons p {
+  margin: 0 !important;
+  display: flex !important;
+  gap: 10px !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.curriculum-box img.unit-icon {
+  width: clamp(56px, 5vw, 82px) !important;
+  height: clamp(56px, 5vw, 82px) !important;
+  object-fit: contain !important;
+  filter: drop-shadow(0 2px 3px rgba(16, 34, 81, 0.18)) !important;
+}
+
+.curriculum-box img.unit-icon.unit-icon-single {
+  width: clamp(78px, 6.2vw, 112px) !important;
+  height: clamp(78px, 6.2vw, 112px) !important;
 }
 
 .curriculum-box.capstone-box {
@@ -355,6 +385,46 @@
   opacity: 1 !important;
   visibility: inherit !important;
   transition: opacity 220ms ease !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.reveal .slides section.curriculum-slide .curriculum-box.fragment .unit-title,
+.reveal .slides section.curriculum-slide .curriculum-box.fragment .unit-body,
+.reveal .slides section.curriculum-slide .curriculum-box.fragment .unit-icons {
+  display: none !important;
+}
+
+.reveal .slides section.curriculum-slide .curriculum-box.fragment .unit-label {
+  color: var(--navy) !important;
+  font-size: clamp(2rem, 2.9vw, 2.55rem) !important;
+  letter-spacing: 0.01em !important;
+  text-transform: none !important;
+}
+
+.reveal .slides section.curriculum-slide .curriculum-box.fragment.visible,
+.reveal .slides section.curriculum-slide .curriculum-box.fragment.current-fragment {
+  justify-content: flex-start !important;
+  align-items: stretch !important;
+  text-align: left !important;
+}
+
+.reveal .slides section.curriculum-slide .curriculum-box.fragment.visible .unit-title,
+.reveal .slides section.curriculum-slide .curriculum-box.fragment.visible .unit-body,
+.reveal .slides section.curriculum-slide .curriculum-box.fragment.visible .unit-icons,
+.reveal .slides section.curriculum-slide .curriculum-box.fragment.current-fragment .unit-title,
+.reveal .slides section.curriculum-slide .curriculum-box.fragment.current-fragment .unit-body,
+.reveal .slides section.curriculum-slide .curriculum-box.fragment.current-fragment .unit-icons {
+  display: block !important;
+}
+
+.reveal .slides section.curriculum-slide .curriculum-box.fragment.visible .unit-label,
+.reveal .slides section.curriculum-slide .curriculum-box.fragment.current-fragment .unit-label {
+  color: var(--gold) !important;
+  font-size: 0.9rem !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
 }
 
 .reveal .slides section.curriculum-slide:has(.curriculum-box.fragment.current-fragment) .curriculum-box.fragment:not(.current-fragment) {

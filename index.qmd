@@ -160,7 +160,14 @@ Units and Capstone Overview
 Unit 1
 :::
 ::: {.unit-title}
-Foundations - Tooling and Frameworks
+\- Build -
+
+Tools and Agents
+:::
+::: {.unit-icons}
+![](resources/toolbox.svg){.unit-icon}
+![](resources/mcp.svg){.unit-icon}
+![](resources/python.svg){.unit-icon}
 :::
 ::: {.unit-body}
 - Connect LLMs to tools and MCP
@@ -174,7 +181,13 @@ Foundations - Tooling and Frameworks
 Unit 2
 :::
 ::: {.unit-title}
+\- Test -
+
 Diagnostics
+:::
+::: {.unit-icons}
+![](resources/doctor.svg){.unit-icon}
+![](resources/langsmith-color.svg){.unit-icon}
 :::
 ::: {.unit-body}
 Use diagnostic systems (LangSmith) to: 
@@ -191,7 +204,13 @@ Use diagnostic systems (LangSmith) to:
 Unit 3
 :::
 ::: {.unit-title}
+\- Refine - 
+
 Context Engineering
+:::
+::: {.unit-icons}
+![](resources/graph_pull.svg){.unit-icon}
+![](resources/graph_subagent.svg){.unit-icon}
 :::
 ::: {.unit-body}
 Refine agents using:
@@ -209,10 +228,23 @@ Refine agents using:
 Capstone
 :::
 ::: {.unit-title}
-Battle of the Bots and Contribution Assignment
+\- Prove -
+
+Battle of the Bots
+:::
+::: {.unit-icons}
+![](resources/trophy-winner-prize.svg){.unit-icon}
 :::
 ::: {.unit-body}
 - Student-made agents go head to head in a competition
+:::
+::: {.unit-title}
+Course Contribution
+:::
+<!-- ::: {.unit-icons}
+![](resources/handshake.svg){.unit-icon .unit-icon-single}
+::: -->
+::: {.unit-body}
 - Students update or adjust the curriculum to current AI standards
 :::
 :::
