@@ -217,7 +217,7 @@ Refine agents using:
 
 - Deliberate architecture planning
 - Context engineering
-  - Context offloading (file syste, RAG)
+  - Context offloading (file system, RAG)
   - Subagent orchestration
   - Sandboxing
 :::
