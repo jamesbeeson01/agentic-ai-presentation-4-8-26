@@ -120,7 +120,7 @@ format:
 
 ## {.web-embed-slide}
 
-<iframe src="https://ethanbyui.github.io/agentic_ai_course/" title="Agentic AI Course Site" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://ethan-saline.github.io/agentic_ai_course/" title="Agentic AI Course Site" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## {.image-fill-slide}
 
