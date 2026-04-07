@@ -50,7 +50,7 @@ format:
 <div class="card-text">
 <strong>Wil Jones</strong>
 <span class="role">Website / Course Developer</span>
-<span class="fact">Loves playing the tenor saxophone</span>
+<span class="fact">Data Scientist</span>
 </div>
 </div>
 </div>
